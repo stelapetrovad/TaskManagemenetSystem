@@ -22,16 +22,6 @@ namespace WpfApp1
         {
             modelBuilder.HasDefaultSchema("public");
             base.OnModelCreating(modelBuilder);
-
-            //modelBuilder.Entity<Task>().ToTable("Tasks");
-
-                //.HasIndex(a => a.TaskID);
-
-            //int i = 0;
-
-            //modelBuilder.Entity<User>().ToTable("Users");
-            //modelBuilder.Entity<Task>().Property(b => b.TaskID).HasColumnType("int");
-            int i = 0;
         }
 
         
